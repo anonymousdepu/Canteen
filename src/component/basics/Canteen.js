@@ -1,0 +1,36 @@
+import React ,  { useState } from 'react';
+import './style.css';
+import Menu from "./menuApi";
+import MenuCard from  "./menuCard";
+import Navbar from "./Navbar";
+const uniqueList = [ ...new Set(Menu.map((curElem) => {
+    return curElem.category;
+})),
+"All"
+];
+  console.log(uniqueList);
+const Canteen = () => {
+    const [menuData, setMenuData] =  useState(Menu);
+    const [menuList, setMenuList] = useState(uniqueList);
+    console.log(menuList,setMenuList)
+    console.log(menuData, setMenuData );
+    const filterItem = (category) => {
+        if(category==="All")
+        {
+            setMenuData(Menu);
+            return;
+        }
+        const updatedList= Menu.filter((curElem)=> {
+            return curElem.category === category;
+        });
+        setMenuData(updatedList);
+    }
+    return (
+        <>
+       <Navbar filterItem={filterItem} menuList={menuList}/>
+       <MenuCard menuData={menuData} />
+        </>
+    );
+}
+
+export default Canteen;
