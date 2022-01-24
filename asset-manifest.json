@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/canteen/static/css/main.7136409c.chunk.css",
+    "main.js": "/canteen/static/js/main.89c3e372.chunk.js",
+    "main.js.map": "/canteen/static/js/main.89c3e372.chunk.js.map",
+    "runtime~main.js": "/canteen/static/js/runtime~main.583bb698.js",
+    "runtime~main.js.map": "/canteen/static/js/runtime~main.583bb698.js.map",
+    "static/js/2.61f38fbf.chunk.js": "/canteen/static/js/2.61f38fbf.chunk.js",
+    "static/js/2.61f38fbf.chunk.js.map": "/canteen/static/js/2.61f38fbf.chunk.js.map",
+    "index.html": "/canteen/index.html",
+    "precache-manifest.eddaf34aad6f77d19389aebc90a02383.js": "/canteen/precache-manifest.eddaf34aad6f77d19389aebc90a02383.js",
+    "service-worker.js": "/canteen/service-worker.js",
+    "static/css/main.7136409c.chunk.css.map": "/canteen/static/css/main.7136409c.chunk.css.map"
+  }
+}
